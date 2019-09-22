@@ -11,11 +11,11 @@ console.log('Hi, ' + username + '!')
 
     document.write('Hi, ' + username + '!');
 
-var wantToOrder = prompt('We are so glad you are ready to order custom kicks. How soon do you plan to order your new kicks?');
+var wantsToOrder = prompt('We are so glad you are ready to order custom kicks. How soon do you plan to order your new kicks?');
 
 if (wantsToOrder === 'yes') {
 
-    document.write('<p>We're so glad you're ready to order new kicks.</p>');
+    document.write("<p>We're so glad you're ready to order new kicks.</p>");
 
 } else {
     document.write('<p>Feel free to browse. Also, ask for any help you need from a consultant.</p>');
