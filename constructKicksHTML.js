@@ -8,7 +8,7 @@
 // input: name - "kick", description - "coolest kick ever"
 // work:
 // '<article>' +
-//   '<img src="https://commons.wikimedia.org/wiki/File:Adidas_Yeezy_Boost_%22Oxford_Tan%22.jpg">' +
+//   '<img src="512px-Adidas_Yeezy_Boost_v2__Zebra_.jpg">' +
 //     '<h3>' +
 //       'Another kick again' +
 //       '</h3>' +
@@ -19,7 +19,7 @@
 // output:
 /*
 <article>
-  <img src="https://commons.wikimedia.org/wiki/File:Adidas_Yeezy_Boost_%22Oxford_Tan%22.jpg">
+  <img src="512px-Adidas_Yeezy_Boost_v2__Zebra_.jpg">
     <p>Creative Commons BY-SA 4.0</p>
     <h3>
       Kick
@@ -32,7 +32,7 @@
 
 function constructKickHTML(name, description) {
   var newKick = '<article>' +
-    '<img src="https://commons.wikimedia.org/wiki/File:Adidas_Yeezy_Boost_%22Oxford_Tan%22.jpg">' +
+    '<img src="512px-Adidas_Yeezy_Boost_v2__Zebra_.jpg">' +
     '<h3>' +
     name +
     '</h3>' +
