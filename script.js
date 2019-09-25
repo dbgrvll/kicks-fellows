@@ -15,7 +15,7 @@ var wantsToOrder = prompt('You\'re ready to order your new kicks?');
 
 if (wantsToOrder === 'yes') {
 
-    document.write('Glad you\'re ready to order new kicks.');
+    document.write(' Glad you\'re ready to order new kicks. ');
 
 } else {
     document.write('<p>Feel free to browse. Also, ask for any help you need from a consultant.</p>');
