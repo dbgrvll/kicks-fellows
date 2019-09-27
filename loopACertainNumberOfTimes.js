@@ -1,6 +1,6 @@
-unction constructCatHTML(name, description) {
-    var newCat = '<article>' +
-      '<img src="http://placekitten.com/200/300">' +
+function constructKickHTML(name, description) {
+    var newKick = '<article>' +
+      '<img src="Nike_Air_Max_95.png">' +
       '<h3>' +
       name +
       '</h3>' +
@@ -8,38 +8,38 @@ unction constructCatHTML(name, description) {
       description +
       '</p>' +
       '</article>';
-    return newCat;
+    return newKick;
   }
   
-  // prompt user if they want to add a cat
-  var wantsToAddCat = prompt("Do you want to add a cat?");
+  // prompt user if they want to add a pair of kick
+  var wantsToAddKick = prompt("Do you want to add new kicks?");
   
-  var numberOfCats = prompt('How many cats do you want to add?');
+  var numberOfKick = prompt('How many pairs of kicks do you want to add?');
   
-  // while (numberOfCats > 0) {
-  //   // if so, ask for name and description
-  //   var catName = prompt("What is the cat's name?");
-  //   var catDescription = prompt("What is the cat's description?");
+  // while (numberOfKicks> 0) {
+  //   // if so, ask for brand and description
+  //   var kickBrand = prompt("The brand of these kicks?");
+  //   var kickDescription = prompt("Describe these kicks. What makes them fresh?");
   
-  //   // give name and description to the constructCatHTML function to let it do its thing
-  //   var newCatHtml = constructCatHTML(catName, catDescription);
+  //   // give brand and description to the constructKickHTML function to let it do its thing
+  //   var newKickHtml = constructKickHTML(kickBrand, kickDescription);
   
   //   // hand the resulting HTML off to document.write
-  //   console.log(newCatHtml);
-  //   document.write(newCatHtml);
+  //   console.log(newKickHtml);
+  //   document.write(newKickHtml);
   
-  //   numberOfCats--;
+  //   numberOfKicks--;
   // }
   
-  for (numberOfCats; numberOfCats > 0; numberOfCats--) {
+  for (numberOfKicks; numberOfKicks > 0; numberOfKicks--) {
     // if so, ask for name and description
-    var catName = prompt("What is the cat's name?");
-    var catDescription = prompt("What is the cat's description?");
+    var kickBrand = prompt("The brand of these kicks?");
+    var kickDescription = prompt("Describe these kicks. What makes them fresh?");
   
-    // give name and description to the constructCatHTML function to let it do its thing
-    var newCatHtml = constructCatHTML(catName, catDescription);
+    // give brand and description to the constructKickHTML function to let it do its thing
+    var newKickHtml = constructKickHTML(kickBrand, kickDescription);
   
     // hand the resulting HTML off to document.write
-    console.log(newCatHtml);
-    document.write(newCatHtml);
+    console.log(newKickHtml);
+    document.write(newKickHtml);
   }
